@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Exam Tools - Legal & Info</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+--primary: #4f46e5;
+--bg-gradient-start: #e0e7ff;
+--bg-gradient-end: #ede9fe;
+--card-bg: rgba(255, 255, 255, 0.95);
+--text-main: #1e293b;
+--text-muted: #64748b;
+}
+body {
+font-family: 'Inter', sans-serif;
+margin: 0;
+padding: 0;
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background: linear-gradient(135deg, var(--bg-gradient-start) 0%, var(--bg-gradient-end) 100%);
+}
+.container {
+width: 85%;
+max-width: 480px;
+background: var(--card-bg);
+padding: 40px 30px;
+border-radius: 24px;
+box-shadow: 0 10px 25px rgba(0,0,0,0.05), 0 20px 48px rgba(0,0,0,0.05);
+text-align: center;
+}
+.header-icon {
+width: 64px;
+height: 64px;
+background: var(--primary);
+color: white;
+border-radius: 18px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 32px;
+font-weight: bold;
+margin: 0 auto 20px;
+box-shadow: 0 8px 16px rgba(79, 70, 229, 0.25);
+}
+h1 { color: var(--text-main); font-size: 26px; margin: 0 0 8px; font-weight: 700; }
+p { color: var(--text-muted); font-size: 15px; margin: 0 0 35px; }
+.links-grid { display: flex; flex-direction: column; gap: 14px; }
+a {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 18px 24px;
+background-color: white;
+color: var(--text-main);
+text-decoration: none;
+font-weight: 600;
+font-size: 15px;
+border-radius: 14px;
+border: 1px solid #e2e8f0;
+transition: all 0.3s ease;
+}
+a:hover {
+border-color: var(--primary);
+box-shadow: 0 6px 16px rgba(79, 70, 229, 0.12);
+transform: translateY(-3px);
+color: var(--primary);
+}
+.footer { margin-top: 35px; font-size: 13px; color: var(--text-muted); }
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header-icon">E</div>
+<h1>Exam Tools</h1>
+<p>Official Policies & Information</p>
+<div class="links-grid">
+  <a href="about-us.html">About Us</a>
+  <a href="privacy-policy.html">Privacy Policy</a>
+  <a href="terms-and-conditions.html">Terms & Conditions</a>
+  <a href="disclaimer.html">Disclaimer</a>
+</div>
+<div class="footer">© 2026 Exam Tools</div>
+</div>
+</body>
+</html>
